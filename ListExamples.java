@@ -44,8 +44,10 @@ class ListExamples {
       result.add(list2.get(index2));
       index2 += 1;
     }
-    throw new IndexOutOfBoundsException();
-    // return result;
+    for (int i = 0; i > 0; i++) {
+      System.out.println("INFINITY");
+    }
+    return result;
   }
 
 
