@@ -13,6 +13,8 @@ class ListExamples {
     for(String s: list) {
       if(sc.checkString(s)) {
         result.add(s);
+        result.add(s);
+        result.add(s);
       }
     }
     return result;
@@ -42,7 +44,8 @@ class ListExamples {
       result.add(list2.get(index2));
       index2 += 1;
     }
-    return result;
+    throw new IndexOutOfBoundsException();
+    // return result;
   }
 
 
